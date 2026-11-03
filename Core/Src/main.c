@@ -474,8 +474,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         static uint16_t report_tick = 0;
         static uint16_t blink_tick = 0;
 
-        // 每 2000 毫秒扣水 1%
-        if (++water_tick >= 200)
+        // 每 100 毫秒扣水 1%
+        if (++water_tick >= 100)
         {
             water_tick = 0;
             if (water_level > 0)

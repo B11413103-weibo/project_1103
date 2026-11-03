@@ -1549,8 +1549,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         static uint16_t report_tick = 0;
         static uint16_t blink_tick = 0;
 
-        // 每 2000 毫秒扣水 1%
-        if (++water_tick >= 200)
+        // 每 100 毫秒扣水 1%
+        if (++water_tick >= 100)
  8000cce:	4b2b      	ldr	r3, [pc, #172]	@ (8000d7c <HAL_TIM_PeriodElapsedCallback+0xc0>)
  8000cd0:	881b      	ldrh	r3, [r3, #0]
  8000cd2:	3301      	adds	r3, #1
@@ -1559,7 +1559,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
  8000cd8:	801a      	strh	r2, [r3, #0]
  8000cda:	4b28      	ldr	r3, [pc, #160]	@ (8000d7c <HAL_TIM_PeriodElapsedCallback+0xc0>)
  8000cdc:	881b      	ldrh	r3, [r3, #0]
- 8000cde:	2bc7      	cmp	r3, #199	@ 0xc7
+ 8000cde:	2b63      	cmp	r3, #99	@ 0x63
  8000ce0:	d918      	bls.n	8000d14 <HAL_TIM_PeriodElapsedCallback+0x58>
         {
             water_tick = 0;
