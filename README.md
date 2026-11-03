@@ -67,3 +67,5 @@
 ![開發板照片](docs/hardware.jpg)
 
 ![開發板照片](docs/warning_on.jpg)
+
+![終端機照片](docs/console.jpg)
