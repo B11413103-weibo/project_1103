@@ -58,12 +58,12 @@
 
 \## 以下附上圖片
 
-(docs/light_on.jpg)
+![開發板照片](docs/light_on.jpg)
 
-(docs/light_off.jpg)
+![開發板照片](docs/light_off.jpg)
 
-(docs/water_on.jpg)
+![開發板照片](docs/water_on.jpg)
 
-(docs/water_off.jpg)
+![開發板照片](docs/hardware.jpg)
 
-(docs/warning_on.jpg)
+![開發板照片](docs/warning_on.jpg)
