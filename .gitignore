@@ -1,0 +1,11 @@
+# STM32CubeIDE / Eclipse 暫存與編譯檔
+Debug/
+Release/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.su
+.metadata/
+.extSettings
