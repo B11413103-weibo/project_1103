@@ -56,3 +56,14 @@
 
 5\. 在終端機中可看到每秒回報的狀態，也可輸入 `light 80` 或 `water 50` 進行控制。
 
+\## 以下附上圖片
+
+(docs/light_on.jpg)
+
+(docs/light_off.jpg)
+
+(docs/water_on.jpg)
+
+(docs/water_off.jpg)
+
+(docs/warning_on.jpg)
